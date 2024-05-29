@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|g:\\proyectobazar\\apliacionmejorada3.0\\swlnbazarhub_04132024_0729_ods (2.0)\\swlnbazarhub_04132024_0729_ods\\swlnbazarhub\\swlnbazarhub\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\cpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\cpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\cprovedorees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\cprovedorees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\detallespedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\detallespedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\cdireccionesenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\cdireccionesenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\cusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\cusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\controladoras\\ccategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\controladoras\\ccategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\enlacedatos\\adobazar.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\enlacedatos\\adobazar.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\entidades\\eusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\entidades\\eusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\entidades\\etipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\entidades\\etipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\swlnbazarhub\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3AD1B69-A003-4C24-9058-C9C2231B9C9D}|SWLNBazarHub\\SWLNBazarHub.csproj|solutionrelative:swlnbazarhub\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\proyecto bazarhub\\swlnbazarhub\\swlnbazarhub\\enlacedatos\\adodbbazar.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CProvedorees.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CProvedorees.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\CProvedorees.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CProvedorees.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\CProvedorees.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:29:15.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetallesPedido.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\DetallesPedido.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\DetallesPedido.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\DetallesPedido.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\DetallesPedido.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:29:07.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoUsuario.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\TipoUsuario.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\TipoUsuario.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\TipoUsuario.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\TipoUsuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:28:57.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CDireccionesEnvio.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CDireccionesEnvio.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\CDireccionesEnvio.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CDireccionesEnvio.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\CDireccionesEnvio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:28:52.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CCategorias.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CCategorias.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\CCategorias.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CCategorias.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\CCategorias.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:27:21.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ADOBazar.edmx [Diagram1]",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\EnlaceDatos\\ADOBazar.edmx",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\EnlaceDatos\\ADOBazar.edmx",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\Proyecto\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\EnlaceDatos\\ADOBazar.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-19T22:26:41.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CPedidos.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CPedidos.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\CPedidos.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CPedidos.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\CPedidos.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:25:50.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\Productos.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\Productos.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\Productos.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\Productos.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwBwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:18:38.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ETipoUsuario.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Entidades\\ETipoUsuario.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Entidades\\ETipoUsuario.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Entidades\\ETipoUsuario.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Entidades\\ETipoUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:54:32.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ADODBBazar.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Proyecto BazarHub\\SWLNBazarHub\\SWLNBazarHub\\EnlaceDatos\\ADODBBazar.edmx",
+              "ToolTip": "C:\\Proyecto BazarHub\\SWLNBazarHub\\SWLNBazarHub\\EnlaceDatos\\ADODBBazar.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-09T15:45:53.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CUsuario.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CUsuario.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Controladoras\\CUsuario.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Controladoras\\CUsuario.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Controladoras\\CUsuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:40:48.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EUsuario.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Entidades\\EUsuario.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Entidades\\EUsuario.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Entidades\\EUsuario.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Entidades\\EUsuario.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:37:28.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\IService1.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\IService1.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\IService1.cs",
+              "RelativeToolTip": "SWLNBazarHub\\IService1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T06:51:14.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "SWLNBazarHub\\Service1.svc.cs",
+              "ToolTip": "G:\\ProyectoBazar\\ApliacionMejorada3.0\\SWLNBazarHub_04132024_0729_ODS (2.0)\\SWLNBazarHub_04132024_0729_ODS\\SWLNBazarHub\\SWLNBazarHub\\Service1.svc.cs",
+              "RelativeToolTip": "SWLNBazarHub\\Service1.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:29:48.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

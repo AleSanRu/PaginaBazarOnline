@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBBazar2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CarritoCompras">
+    <Key>
+      <PropertyRef Name="CarritoID" />
+    </Key>
+    <Property Name="CarritoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+  </EntityType>
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="CategoriaID" />
+    </Key>
+    <Property Name="CategoriaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ComentariosValoraciones">
+    <Key>
+      <PropertyRef Name="ComentarioID" />
+    </Key>
+    <Property Name="ComentarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Comentario" Type="text" />
+    <Property Name="Valoracion" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DetallesFactura">
+    <Key>
+      <PropertyRef Name="DetalleFacturaID" />
+    </Key>
+    <Property Name="DetalleFacturaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacturaID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="PrecioUnitario" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="5" Scale="2" />
+  </EntityType>
+  <EntityType Name="DetallesPedido">
+    <Key>
+      <PropertyRef Name="DetalleID" />
+    </Key>
+    <Property Name="DetalleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PedidoID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="PrecioUnitario" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Devoluciones">
+    <Key>
+      <PropertyRef Name="DevolucionID" />
+    </Key>
+    <Property Name="DevolucionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PedidoID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="Motivo" Type="text" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="DireccionesEnvio">
+    <Key>
+      <PropertyRef Name="DireccionID" />
+    </Key>
+    <Property Name="DireccionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioID" Type="int" />
+    <Property Name="Direccion" Type="varchar" MaxLength="255" />
+    <Property Name="Ciudad" Type="varchar" MaxLength="100" />
+    <Property Name="Pais" Type="varchar" MaxLength="100" />
+    <Property Name="CodigoPostal" Type="varchar" MaxLength="20" />
+    <Property Name="RegistroEstado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EnviosSeguimiento">
+    <Key>
+      <PropertyRef Name="EnvioID" />
+    </Key>
+    <Property Name="EnvioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PedidoID" Type="int" />
+    <Property Name="EstadoEnvio" Type="varchar" MaxLength="20" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Facturas">
+    <Key>
+      <PropertyRef Name="FacturaID" />
+    </Key>
+    <Property Name="FacturaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PedidoID" Type="int" />
+    <Property Name="FechaFactura" Type="datetime" />
+    <Property Name="Total" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="MetodoPago" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="HistorialTransacciones">
+    <Key>
+      <PropertyRef Name="TransaccionID" />
+    </Key>
+    <Property Name="TransaccionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoTransaccion" Type="varchar" MaxLength="20" />
+    <Property Name="IDTransaccion" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Inventario">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+    </Key>
+    <Property Name="ProductoID" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" />
+  </EntityType>
+  <EntityType Name="MetodosPago">
+    <Key>
+      <PropertyRef Name="MetodoID" />
+    </Key>
+    <Property Name="MetodoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreMetodo" Type="varchar" MaxLength="100" />
+    <Property Name="Descripcion" Type="text" />
+  </EntityType>
+  <EntityType Name="Pedidos">
+    <Key>
+      <PropertyRef Name="PedidoID" />
+    </Key>
+    <Property Name="PedidoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioID" Type="int" />
+    <Property Name="FechaPedido" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="DireccionEnvio" Type="varchar" MaxLength="255" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+    </Key>
+    <Property Name="ProductoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Descripcion" Type="text" />
+    <Property Name="Precio" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="CategoriaID" Type="int" />
+    <Property Name="ProveedorID" Type="int" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PromocionesDescuentos">
+    <Key>
+      <PropertyRef Name="PromocionID" />
+    </Key>
+    <Property Name="PromocionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoPromocion" Type="varchar" MaxLength="20" />
+    <Property Name="TipoPromocion" Type="varchar" MaxLength="20" />
+    <Property Name="Valor" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="FechaInicio" Type="date" />
+    <Property Name="FechaFin" Type="date" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="ProveedorID" />
+    </Key>
+    <Property Name="ProveedorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreEmpresa" Type="varchar" MaxLength="100" />
+    <Property Name="Contacto" Type="varchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ReportesAnalisis">
+    <Key>
+      <PropertyRef Name="ReporteID" />
+    </Key>
+    <Property Name="ReporteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoReporte" Type="varchar" MaxLength="20" />
+    <Property Name="Detalles" Type="text" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TipoUsuario">
+    <Key>
+      <PropertyRef Name="TipoUsuarioID" />
+    </Key>
+    <Property Name="TipoUsuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="50" />
+    <Property Name="TipoUsuarioID" Type="int" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="FechaDeEdicion" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_CarritoCompras_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+    <End Role="CarritoCompras" Type="Self.CarritoCompras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="CarritoCompras">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CarritoCompras_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="CarritoCompras" Type="Self.CarritoCompras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="CarritoCompras">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ComentariosValoraciones_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+    <End Role="ComentariosValoraciones" Type="Self.ComentariosValoraciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="ComentariosValoraciones">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ComentariosValoraciones_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="ComentariosValoraciones" Type="Self.ComentariosValoraciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="ComentariosValoraciones">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetallesFactura_Facturas">
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="0..1" />
+    <End Role="DetallesFactura" Type="Self.DetallesFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Facturas">
+        <PropertyRef Name="FacturaID" />
+      </Principal>
+      <Dependent Role="DetallesFactura">
+        <PropertyRef Name="FacturaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetallesFactura_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+    <End Role="DetallesFactura" Type="Self.DetallesFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="DetallesFactura">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetallesPedido_Pedidos">
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="0..1" />
+    <End Role="DetallesPedido" Type="Self.DetallesPedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedidos">
+        <PropertyRef Name="PedidoID" />
+      </Principal>
+      <Dependent Role="DetallesPedido">
+        <PropertyRef Name="PedidoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetallesPedido_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+    <End Role="DetallesPedido" Type="Self.DetallesPedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="DetallesPedido">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Devoluciones_Pedidos">
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="0..1" />
+    <End Role="Devoluciones" Type="Self.Devoluciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedidos">
+        <PropertyRef Name="PedidoID" />
+      </Principal>
+      <Dependent Role="Devoluciones">
+        <PropertyRef Name="PedidoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Devoluciones_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+    <End Role="Devoluciones" Type="Self.Devoluciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="Devoluciones">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DireccionesEnvio_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="DireccionesEnvio" Type="Self.DireccionesEnvio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="DireccionesEnvio">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EnviosSeguimiento_Pedidos">
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="0..1" />
+    <End Role="EnviosSeguimiento" Type="Self.EnviosSeguimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedidos">
+        <PropertyRef Name="PedidoID" />
+      </Principal>
+      <Dependent Role="EnviosSeguimiento">
+        <PropertyRef Name="PedidoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Facturas_Pedidos">
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="0..1" />
+    <End Role="Facturas" Type="Self.Facturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedidos">
+        <PropertyRef Name="PedidoID" />
+      </Principal>
+      <Dependent Role="Facturas">
+        <PropertyRef Name="PedidoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventario_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="Inventario" Type="Self.Inventario" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="Inventario">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedidos_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Productos_Categorias">
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="0..1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="CategoriaID" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="CategoriaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Productos_Proveedores">
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="0..1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="ProveedorID" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="ProveedorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuarios_TipoUsuario">
+    <End Role="TipoUsuario" Type="Self.TipoUsuario" Multiplicity="0..1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoUsuario">
+        <PropertyRef Name="TipoUsuarioID" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="TipoUsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBBazar2ModelStoreContainer">
+    <EntitySet Name="CarritoCompras" EntityType="Self.CarritoCompras" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComentariosValoraciones" EntityType="Self.ComentariosValoraciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetallesFactura" EntityType="Self.DetallesFactura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetallesPedido" EntityType="Self.DetallesPedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Devoluciones" EntityType="Self.Devoluciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DireccionesEnvio" EntityType="Self.DireccionesEnvio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EnviosSeguimiento" EntityType="Self.EnviosSeguimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Facturas" EntityType="Self.Facturas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistorialTransacciones" EntityType="Self.HistorialTransacciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inventario" EntityType="Self.Inventario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MetodosPago" EntityType="Self.MetodosPago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedidos" EntityType="Self.Pedidos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PromocionesDescuentos" EntityType="Self.PromocionesDescuentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReportesAnalisis" EntityType="Self.ReportesAnalisis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoUsuario" EntityType="Self.TipoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CarritoCompras_Productos" Association="Self.FK_CarritoCompras_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="CarritoCompras" EntitySet="CarritoCompras" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CarritoCompras_Usuarios" Association="Self.FK_CarritoCompras_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="CarritoCompras" EntitySet="CarritoCompras" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ComentariosValoraciones_Productos" Association="Self.FK_ComentariosValoraciones_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="ComentariosValoraciones" EntitySet="ComentariosValoraciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ComentariosValoraciones_Usuarios" Association="Self.FK_ComentariosValoraciones_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="ComentariosValoraciones" EntitySet="ComentariosValoraciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetallesFactura_Facturas" Association="Self.FK_DetallesFactura_Facturas">
+      <End Role="Facturas" EntitySet="Facturas" />
+      <End Role="DetallesFactura" EntitySet="DetallesFactura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetallesFactura_Productos" Association="Self.FK_DetallesFactura_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetallesFactura" EntitySet="DetallesFactura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetallesPedido_Pedidos" Association="Self.FK_DetallesPedido_Pedidos">
+      <End Role="Pedidos" EntitySet="Pedidos" />
+      <End Role="DetallesPedido" EntitySet="DetallesPedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetallesPedido_Productos" Association="Self.FK_DetallesPedido_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetallesPedido" EntitySet="DetallesPedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Devoluciones_Pedidos" Association="Self.FK_Devoluciones_Pedidos">
+      <End Role="Pedidos" EntitySet="Pedidos" />
+      <End Role="Devoluciones" EntitySet="Devoluciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Devoluciones_Productos" Association="Self.FK_Devoluciones_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Devoluciones" EntitySet="Devoluciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DireccionesEnvio_Usuarios" Association="Self.FK_DireccionesEnvio_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="DireccionesEnvio" EntitySet="DireccionesEnvio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EnviosSeguimiento_Pedidos" Association="Self.FK_EnviosSeguimiento_Pedidos">
+      <End Role="Pedidos" EntitySet="Pedidos" />
+      <End Role="EnviosSeguimiento" EntitySet="EnviosSeguimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Facturas_Pedidos" Association="Self.FK_Facturas_Pedidos">
+      <End Role="Pedidos" EntitySet="Pedidos" />
+      <End Role="Facturas" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventario_Productos" Association="Self.FK_Inventario_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Inventario" EntitySet="Inventario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedidos_Usuarios" Association="Self.FK_Pedidos_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Pedidos" EntitySet="Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Productos_Categorias" Association="Self.FK_Productos_Categorias">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Productos_Proveedores" Association="Self.FK_Productos_Proveedores">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuarios_TipoUsuario" Association="Self.FK_Usuarios_TipoUsuario">
+      <End Role="TipoUsuario" EntitySet="TipoUsuario" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

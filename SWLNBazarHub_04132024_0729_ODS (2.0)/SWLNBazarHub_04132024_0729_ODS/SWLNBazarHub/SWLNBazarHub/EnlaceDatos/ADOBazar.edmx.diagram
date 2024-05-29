@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="16e405e5f98847d1a3da0713cb3af230" Name="Diagram1">
+        <EntityTypeShape EntityType="DBBazar2Model.CarritoCompras" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Categorias" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.ComentariosValoraciones" Width="1.5" PointX="8.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.DetallesFactura" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.DetallesPedido" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Devoluciones" Width="1.5" PointX="8.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.DireccionesEnvio" Width="1.5" PointX="3.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.EnviosSeguimiento" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Facturas" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.HistorialTransacciones" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Inventario" Width="1.5" PointX="5.25" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.MetodosPago" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Pedidos" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Productos" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.PromocionesDescuentos" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Proveedores" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.ReportesAnalisis" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.TipoUsuario" Width="1.5" PointX="1.5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBazar2Model.Usuarios" Width="1.5" PointX="1.5" PointY="14.125" IsExpanded="true" />
+        <AssociationConnector Association="DBBazar2Model.FK_CarritoCompras_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_CarritoCompras_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Productos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_ComentariosValoraciones_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_ComentariosValoraciones_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_DetallesFactura_Facturas" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_DetallesFactura_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_DetallesPedido_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_DetallesPedido_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Devoluciones_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Devoluciones_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_DireccionesEnvio_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_EnviosSeguimiento_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Facturas_Pedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Inventario_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Pedidos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Productos_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBazar2Model.FK_Usuarios_TipoUsuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
